@@ -7,8 +7,6 @@ tags: [caret, R]
 ---
 {% include JB/setup %}
 
-# [caret包](http://caret.r-forge.r-project.org/)
-
 ## [Data Sets](http://caret.r-forge.r-project.org/datasets.html#)
 
 ## [Visualizations](http://caret.r-forge.r-project.org/visualizations.html)
@@ -24,7 +22,7 @@ library(caret)
 featurePlot(x = iris[, 1:4], y = iris$Species, plot = "pairs", auto.key = list(columns = 3))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig1.png) 
+![center](img/posts/2014-05-23-caret-package/fig1.png) 
 
 
 ### Scatterplot Matrix with Ellipses
@@ -37,7 +35,13 @@ library(caret)
 featurePlot(x = iris[, 1:4], y = iris$Species, plot = "ellipse", auto.key = list(columns = 3))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig2.png) 
+
+
+{% highlight text %}
+## Loading required package: ellipse
+{% endhighlight %}
+
+![center](img/posts/2014-05-23-caret-package/fig2.png) 
 
 
 ### Overlayed Density Plots
@@ -52,7 +56,7 @@ featurePlot(x = iris[, 1:4], y = iris$Species, plot = "density", scales = list(x
     auto.key = list(columns = 3))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig3.png) 
+![center](img/posts/2014-05-23-caret-package/fig3.png) 
 
 
 ### Box Plots
@@ -72,7 +76,7 @@ featurePlot(x = iris[, 1:4],
                   auto.key = list(columns = 2))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig4.png) 
+![center](img/posts/2014-05-23-caret-package/fig4.png) 
 
 
 ## Scatter Plots
@@ -111,14 +115,14 @@ featurePlot(x = BostonHousing[, regVar], y = BostonHousing$medv, plot = "scatter
     layout = c(3, 1))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig51.png) 
+![center](img/posts/2014-05-23-caret-package/fig51.png) 
 
 {% highlight r %}
 featurePlot(x = BostonHousing[, regVar], y = BostonHousing$medv, plot = "scatter", 
     type = c("p", "smooth"), span = 0.5, layout = c(3, 1))
 {% endhighlight %}
 
-![center](./img/posts/2014-05-23-caret-package/fig52.png) 
+![center](img/posts/2014-05-23-caret-package/fig52.png) 
 
 ## 引用
 
