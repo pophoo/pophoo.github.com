@@ -2,7 +2,7 @@
 layout: post
 title: "作者简介"
 description: "有关博主的介绍"
-category: author
+category: life
 tags: [简介]
 ---
 {% include JB/setup %}
@@ -10,10 +10,10 @@ tags: [简介]
 
 #个人简介   
 
-- 生物统计师一枚，年方27，已婚，马上就要升级成为爸爸
+- 年方27,奶爸统计师一枚
 - 各种倒腾
 - 没房，没车，没钱
-- 主攻临床试验统计，一直在努力
+- 主攻各种数据量化分析，一直在努力
 - stay hungry! stay foolish
 
 
@@ -29,4 +29,3 @@ tags: [简介]
 
 
 作者：[@小太爷945](http://weibo.com/u/1616019567)
-2014-04-23 星期三 15:34:17 

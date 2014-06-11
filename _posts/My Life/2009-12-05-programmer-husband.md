@@ -3,7 +3,7 @@ layout: post
 title: "找程序员做老公的十大好处"
 description: ""
 category: life
-tags: [life]
+tags: [生活]
 ---
 {% include JB/setup %}
 
