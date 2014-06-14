@@ -28,7 +28,7 @@
 <!-- Duoshuo Comment BEGIN -->
 	<div class="ds-thread" data-title="{{ page.title }}"></div>
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"cino"};
+var duoshuoQuery = {short_name:"pophoo"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
