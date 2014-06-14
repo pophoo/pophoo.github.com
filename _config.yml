@@ -97,9 +97,9 @@ JB :
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : Tiger
+      short_name : pophoo
     disqus :
-      short_name : Tiger
+      short_name : pophoo
     livefyre :
       site_id : 123
     intensedebate :
