@@ -2,7 +2,7 @@
 layout: post
 title: "caret包"
 description: ""
-category: R
+category: learn
 tags: [caret, R]
 ---
 {% include JB/setup %}
@@ -16,27 +16,31 @@ tags: [caret, R]
 
 {% highlight r %}
 library(AppliedPredictiveModeling)
-transparentTheme(trans = 0.4)
+transparentTheme(trans = .4)
 
 library(caret)
-featurePlot(x = iris[, 1:4], y = iris$Species, plot = "pairs", auto.key = list(columns = 3))
+featurePlot(x = iris[, 1:4],
+            y = iris$Species,
+            plot = "pairs",
+            auto.key = list(columns = 3))
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig1.png) 
-
 
 ### Scatterplot Matrix with Ellipses
 
 
 {% highlight r %}
 library(AppliedPredictiveModeling)
-transparentTheme(trans = 0.4)
+transparentTheme(trans = .4)
 library(caret)
-featurePlot(x = iris[, 1:4], y = iris$Species, plot = "ellipse", auto.key = list(columns = 3))
+featurePlot(x = iris[, 1:4],
+            y = iris$Species,
+            plot = "ellipse",
+            auto.key = list(columns = 3))
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig2.png) 
-
 
 ### Overlayed Density Plots
 
@@ -44,14 +48,19 @@ featurePlot(x = iris[, 1:4], y = iris$Species, plot = "ellipse", auto.key = list
 {% highlight r %}
 library(AppliedPredictiveModeling)
 library(caret)
-transparentTheme(trans = 0.9)
-featurePlot(x = iris[, 1:4], y = iris$Species, plot = "density", scales = list(x = list(relation = "free"), 
-    y = list(relation = "free")), adjust = 1.5, pch = "|", layout = c(4, 1), 
-    auto.key = list(columns = 3))
+transparentTheme(trans = .9)
+featurePlot(x = iris[, 1:4],
+                  y = iris$Species,
+                  plot = "density",
+                  scales = list(x = list(relation="free"),
+                                y = list(relation="free")),
+                  adjust = 1.5,
+                  pch = "|",
+                  layout = c(4, 1),
+                  auto.key = list(columns = 3))
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig3.png) 
-
 
 ### Box Plots
 
@@ -71,7 +80,6 @@ featurePlot(x = iris[, 1:4],
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig4.png) 
-
 
 ## Scatter Plots
 
@@ -95,36 +103,35 @@ str(BostonHousing[, regVar])
 
 
 {% highlight r %}
-
 library(AppliedPredictiveModeling)
 library(caret)
-transparentTheme(trans = 0.9)
+transparentTheme(trans = .9)
 theme1 <- trellis.par.get()
-theme1$plot.symbol$col = rgb(0.2, 0.2, 0.2, 0.4)
+theme1$plot.symbol$col = rgb(.2, .2, .2, .4)
 theme1$plot.symbol$pch = 16
-theme1$plot.line$col = rgb(1, 0, 0, 0.7)
+theme1$plot.line$col = rgb(1, 0, 0, .7)
 theme1$plot.line$lwd <- 2
 trellis.par.set(theme1)
-featurePlot(x = BostonHousing[, regVar], y = BostonHousing$medv, plot = "scatter", 
-    layout = c(3, 1))
+featurePlot(x = BostonHousing[, regVar],
+            y = BostonHousing$medv,
+            plot = "scatter",
+            layout = c(3, 1))
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig51.png) 
 
 {% highlight r %}
-featurePlot(x = BostonHousing[, regVar], y = BostonHousing$medv, plot = "scatter", 
-    type = c("p", "smooth"), span = 0.5, layout = c(3, 1))
+featurePlot(x = BostonHousing[, regVar],
+            y = BostonHousing$medv,
+            plot = "scatter",
+            type = c("p", "smooth"),
+            span = .5,
+            layout = c(3, 1))            
 {% endhighlight %}
 
 ![center](/img/posts/2014-05-23-caret-package/fig52.png) 
-
 ## 引用
 
 1. [Applied Predictive Modeling](http://appliedpredictivemodeling.com/)
 1. [Building Predictive Models in R Using the caret Package
 ](http://www.jstatsoft.org/v28/i05)
-
-
-
-
-
