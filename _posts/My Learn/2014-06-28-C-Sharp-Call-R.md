@@ -50,14 +50,14 @@ sessionInfo()
 
 <a 
   href="http://tietuku.com/535b04402fd0bbfd" target="_blank">
-  <img src="http://i1.tietuku.com/535b04402fd0bbfd.png" width="50%" height="50%" />
+  <img src="http://i1.tietuku.com/535b04402fd0bbfd.png" width="80%" height="80%" />
 </a>
 
 通过[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778)新建`C#控制台应用程序`类型解决方案`Hello World`.
 
 <a 
   href="http://tietuku.com/39a9d71519db6533" target="_blank">
-  <img src="http://i1.tietuku.com/39a9d71519db6533.png" width="50%" height="50%" />
+  <img src="http://i1.tietuku.com/39a9d71519db6533.png" width="80%" height="80%" />
 </a>
 
 右击`解决方案资源管理器`的`引用`,选择`管理NuGet程序包`.
@@ -71,7 +71,7 @@ sessionInfo()
 
 <a 
   href="http://tietuku.com/c69504c27f048aff" target="_blank">
-  <img src="http://i1.tietuku.com/c69504c27f048aff.png" width="50%" height="50%" />
+  <img src="http://i1.tietuku.com/c69504c27f048aff.png" width="80%" height="80%" />
 </a>
 
 安装成功后,`引用`会多出`RDotNet`和`RDotNet.NativeLibrary`两项.
