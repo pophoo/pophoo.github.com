@@ -44,20 +44,20 @@ sessionInfo()
 ## [1] evaluate_0.5.5 formatR_0.10   stringr_0.6.2  tools_3.1.0
 {% endhighlight %}
 
-由于[R.NET](http://rdotnet.codeplex.com)是发布在[NuGet](https://www.nuget.org)上的包,需要在[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778)上安装NuGet Package Manager.
+由于[R.NET](http://rdotnet.codeplex.com)是发布在[NuGet](https://www.nuget.org)上的包,需要在[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778)上安装`NuGet Package Manager`.
 
 打开[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778),`工具`菜单栏下`扩展和更新`,选择`联机`下面的`Visual Studio库`,下载`NuGet Package Manager for Visual Studio`,安装并重启[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778).
 
 <a 
   href="http://tietuku.com/535b04402fd0bbfd" target="_blank">
-  <img src="http://i1.tietuku.com/535b04402fd0bbfd.png" />
+  <img src="http://i1.tietuku.com/535b04402fd0bbfd.png" width="50%" height="50%" />
 </a>
 
 通过[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778)新建`C#控制台应用程序`类型解决方案`Hello World`.
 
 <a 
   href="http://tietuku.com/39a9d71519db6533" target="_blank">
-  <img src="http://i1.tietuku.com/39a9d71519db6533.png" />
+  <img src="http://i1.tietuku.com/39a9d71519db6533.png" width="50%" height="50%" />
 </a>
 
 右击`解决方案资源管理器`的`引用`,选择`管理NuGet程序包`.
@@ -71,7 +71,7 @@ sessionInfo()
 
 <a 
   href="http://tietuku.com/c69504c27f048aff" target="_blank">
-  <img src="http://i1.tietuku.com/c69504c27f048aff.png" />
+  <img src="http://i1.tietuku.com/c69504c27f048aff.png" width="50%" height="50%" />
 </a>
 
 安装成功后,`引用`会多出`RDotNet`和`RDotNet.NativeLibrary`两项.
@@ -83,7 +83,8 @@ sessionInfo()
 
 而且[Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=40778)的`输出`窗口会有相应输出.
 
-```
+<pre>
+<body>
 ------- 正在安装...R.NET.Community 1.5.15 -------
 正在安装“R.NET.Community 1.5.15”。
 已将文件“RDotNet.dll”添加到文件夹“R.NET.Community.1.5.15\lib\net40”。
@@ -102,11 +103,13 @@ sessionInfo()
 已将文件“packages.config”添加到项目“Hello World”
 已成功将“R.NET.Community 1.5.15”添加到 Hello World。
 ==============================
-```
+</body>
+</pre>
 
 在`Program.cs`中,输入如下代码.
 
-```
+<pre>
+<body>
 using RDotNet;
 using RDotNet.NativeLibrary;
 using System;
@@ -136,12 +139,13 @@ namespace HelloWorld
       }
    }
 }
-```
+</body>
+</pre>
 
 选择`调试`菜单栏下`开始执行(不调试)`,输出如下.
 
 <a 
   href="http://tietuku.com/9159a48b1d96a321" target="_blank">
-  <img src="http://i1.tietuku.com/9159a48b1d96a321.png" />
+  <img src="http://i1.tietuku.com/9159a48b1d96a321.png" width="80%" height="80%" />
 </a>
 
