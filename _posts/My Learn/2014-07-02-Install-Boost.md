@@ -29,7 +29,6 @@ tags: [Visual Studio, C++, boost]
 在`06_Boost_Math.cpp`中输入代码,
 
 <pre>
-<body>
 #include "stdafx.h"
 #include <iostream>
 #include <boost/math/distributions/normal.hpp>
@@ -45,7 +44,6 @@ int main()
 	cout << quantile(s, 0.95) << endl;
 	return 0;
 }
-</body>
 </pre>
 
 选择`调试`菜单栏下`开始执行(不调试)`,输出如下.
