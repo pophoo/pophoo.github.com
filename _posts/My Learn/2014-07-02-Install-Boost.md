@@ -29,7 +29,7 @@ tags: [Visual Studio, C++, boost]
 在`06_Boost_Math.cpp`中输入代码,
 
 <pre>
-<body>
+
 #include "stdafx.h"
 #include <iostream>
 #include <boost/math/distributions/normal.hpp>
@@ -38,14 +38,14 @@ using namespace std;
 
 int main()
 {
-  boost::math::normal s; // (Default mu = 0 and sigma = 1)
+  boost::math::normal s;
 	cout << s.mean() << endl;   
 	cout << s.standard_deviation() << endl;   
 	cout << setprecision(10) << boost::math::pdf(s, 1.0) << endl;   
 	cout << quantile(s, 0.95) << endl;
 	return 0;
 }
-</body>
+
 </pre>
 
 
