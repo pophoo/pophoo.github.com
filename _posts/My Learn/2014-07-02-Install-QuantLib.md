@@ -55,14 +55,14 @@ tags: [Visual Studio, boost, QuantLib]
 
 <a 
   href="http://tietuku.com/0fe128e7217dfff8" target="_blank">
-  <img src="http://i1.tietuku.com/0fe128e7217dfff8.png" />
+  <img src="http://i1.tietuku.com/0fe128e7217dfff8.png" width="90%" height="90%"/>
 </a>
 
 选择`链接器`下的`常规`,添加`E:\Program Files\boost_1_55_0\lib64-msvc-12.0`和`E:\Program Files\QuantLib-1.4\lib`到`附加库目录`项.
 
 <a 
   href="http://tietuku.com/3d5fdf6db373ae71" target="_blank">
-  <img src="http://i1.tietuku.com/3d5fdf6db373ae71.png" />
+  <img src="http://i1.tietuku.com/3d5fdf6db373ae71.png" width="90%" height="90%"/>
 </a>
 
 在`TestingQuantLib`中输入代码,
@@ -108,5 +108,5 @@ int main()
 
 <a 
   href="http://tietuku.com/fd1ba1d57eb825bf" target="_blank">
-  <img src="http://i1.tietuku.com/fd1ba1d57eb825bf.png" />
+  <img src="http://i1.tietuku.com/fd1ba1d57eb825bf.png" width="90%" height="90%"/>
 </a>
