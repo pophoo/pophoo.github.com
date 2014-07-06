@@ -30,7 +30,7 @@ tags: [Visual Studio, C++, boost]
 
 <pre>
 #include "stdafx.h"
-#include &lt iostream &gt
+#include &lt;iostream&gt;
 #include <boost/math/distributions/normal.hpp>
 
 using namespace std;
