@@ -11,8 +11,7 @@ tags: [Visual Studio, boost, QuantLib]
 [QuantLib](http://quantlib.org/index.shtml)是一个免费开源的C++量化金融库.
 
 安装[QuantLib](http://quantlib.org/index.shtml)之前,首先需要[安装boost库](http://pophoo.github.io/learn/2014/07/02/Install-Boost/).
-从[Source Forge](http://sourceforge.net/projects/quantlib/files/).
-下载[QuantLib-1.4.zip](http://ncu.dl.sourceforge.net/project/quantlib/QuantLib/1.4/QuantLib-1.4.zip).解压到`E:\Program Files\QuantLib-1.4`.
+从[Source Forge](http://sourceforge.net/projects/quantlib/files/)下载[QuantLib-1.4.zip](http://ncu.dl.sourceforge.net/project/quantlib/QuantLib/1.4/QuantLib-1.4.zip).解压到`E:\Program Files\QuantLib-1.4`.
 
 打开`QuantLib_vc11.sln`,在`解决方案资源管理器`中右击`解决方案QuantLib_vc11.sln`,选择`配置属性`下的`配置`.点击`配置管理器`,设置`活动解决方案配置`为`Release (static runtime)`,设置`活动解决方案平台`为`x64`.
 
@@ -102,7 +101,7 @@ int main()
 </pre>
 
 
-<p>选择`调试`菜单栏下`开始执行(不调试)`,输出如下.</p>
+选择`调试`菜单栏下`开始执行(不调试)`,输出如下.
 
 
 <a 
