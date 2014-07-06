@@ -37,7 +37,7 @@ using namespace std;
 
 int main()
 {
-  boost::math::normal s;
+  	boost::math::normal s;
 	cout << s.mean() << endl;   
 	cout << s.standard_deviation() << endl;   
 	cout << setprecision(10) << boost::math::pdf(s, 1.0) << endl;   
