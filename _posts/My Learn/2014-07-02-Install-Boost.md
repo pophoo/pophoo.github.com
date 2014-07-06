@@ -28,25 +28,27 @@ tags: [Visual Studio, C++, boost]
 
 在`06_Boost_Math.cpp`中输入代码,
 
-<pre>
+<div class="CodeRay">  
+	<div class="code">
+		<pre>
+			#include "stdafx.h"
+			#include <iostream>
+			#include <boost/math/distributions/normal.hpp>
 
-#include "stdafx.h"
-#include <iostream>
-#include <boost/math/distributions/normal.hpp>
+			using namespace std;
 
-using namespace std;
-
-int main()
-{
-  boost::math::normal s;
-	cout << s.mean() << endl;   
-	cout << s.standard_deviation() << endl;   
-	cout << setprecision(10) << boost::math::pdf(s, 1.0) << endl;   
-	cout << quantile(s, 0.95) << endl;
-	return 0;
-}
-
-</pre>
+			int main()
+			{
+			  boost::math::normal s;
+				cout << s.mean() << endl;   
+				cout << s.standard_deviation() << endl;   
+				cout << setprecision(10) << boost::math::pdf(s, 1.0) << endl;   
+				cout << quantile(s, 0.95) << endl;
+				return 0;
+			}
+		</pre>
+	</div>
+</div>
 
 
 <p>选择`调试`菜单栏下`开始执行(不调试)`,输出如下.</p>
