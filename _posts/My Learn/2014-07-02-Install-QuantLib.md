@@ -68,6 +68,7 @@ tags: [Visual Studio, boost, QuantLib]
 在`TestingQuantLib`中输入代码,
 
 <pre>
+<body>
 #include "stdafx.h"
 #include &lt;iostream&gt;
 #include <ql/quantlib.hpp>
@@ -98,6 +99,7 @@ int main()
 
 	return 0;
 }
+</body>
 </pre>
 
 
