@@ -25,9 +25,9 @@ tags: [R, MySQL, RMySQL]
 
 安装RMySQL之前,需要进行一系列设置.
 
-1. 安装R语言到`C:\Program Files\R`,并安装相应版本的[Rtools](http://cran.r-project.org/bin/windows/Rtools/).
+1.安装R语言到`C:\Program Files\R`,并安装相应版本的[Rtools](http://cran.r-project.org/bin/windows/Rtools/).
 
-2. 新建文本文档,输入以下内容,
+2.新建文本文档,输入以下内容,
 
 ```
 MYSQL_HOME=C:/Program Files/MySQL/MySQL Server 5.6/
@@ -35,10 +35,10 @@ MYSQL_HOME=C:/Program Files/MySQL/MySQL Server 5.6/
 
 ,保存为`C:\Program Files\R\etc\Renviron.site`.
 
-3. 在`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹中新建`opt`文件夹,将`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹
+3.在`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹中新建`opt`文件夹,将`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹
 中的`libmysql.lib`复制到`opt`文件夹.
 
-4. 将`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹中的`libmysql.dll`复制到`opt`文件夹,`C:\Program Files\R\bin\i386`,`C:\Program Files\R\bin\x64`和`C:\Program Files\MySQL\MySQL Server 5.6\bin`.
+4.将`C:\Program Files\MySQL\MySQL Server 5.6\lib`文件夹中的`libmysql.dll`复制到`opt`文件夹,`C:\Program Files\R\bin\i386`,`C:\Program Files\R\bin\x64`和`C:\Program Files\MySQL\MySQL Server 5.6\bin`.
 
 运行`install.packages('RMySQL',type ='source')`即可安装`RMySQL`包.运行`Sys.getenv("MYSQL_HOME")`,验证`RMySQL`是否安装成功.如果正确输出`Renviron.site`设置的路径即安装成功.
 
