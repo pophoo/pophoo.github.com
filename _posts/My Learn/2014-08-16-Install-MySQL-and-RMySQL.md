@@ -14,9 +14,11 @@ tags: [R, MySQL, RMySQL]
 
 <a 
   href='http://tietuku.com/c6a778d5a1adf3d9'>
-  <img src='http://i2.tietuku.com/c6a778d5a1adf3d9.png'>
-  width="80%" 
-  height="80%"
+  <img 
+    src='http://i2.tietuku.com/c6a778d5a1adf3d9.png'
+    width="80%" 
+    height="80%"
+  />
 </a>
 
 ## 安装RMySQL
@@ -57,7 +59,6 @@ library(RMySQL)
 mysql = dbDriver("MySQL")
 world = dbConnect(mysql,dbname="world","root","********")
 country = dbGetQuery(world,"select * from country")
-head(country[,1:5])
 dbDisconnect(world)
 dbUnloadDriver(mysql)
 {% endhighlight %}
