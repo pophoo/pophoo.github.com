@@ -1,8 +1,3 @@
-<a href="#"><i class="icon-fixed-width icon-link"></i> GitBook</a>
-<ul>
-  <li><a href="http://pophoo.github.io/My-News/" target="_blank" rel="nofollow">新闻简报</a></li>
-</ul>
-
 <a href="#"><i class="icon-fixed-width icon-link"></i> 跨界链接</a>
 <ul>
   <li><a href="http://xianguo.com/reader#PageMgr.goFolder('3')" target="_blank" rel="nofollow">我的鲜果网</a></li>
@@ -46,3 +41,8 @@
 <ul>
   <li><a href="http://rdotnet.codeplex.com" target="_blank" rel="nofollow"> R.NET</a></li>
 </ul>
+<ul>
+  <li><a href="https://github.com/accord-net/framework/releases" target="_blank" rel="nofollow"> Accord.NET Framework</a></li>
+</ul>
+
+
