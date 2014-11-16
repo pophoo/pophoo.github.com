@@ -29,6 +29,7 @@
 <ul>
   <li><a href="https://github.com/GitbookIO/editor/releases" target="_blank" rel="nofollow"> Gitbook Editor</a></li>
   <li><a href="http://www.rstudio.com/ide/download/preview" target="_blank" rel="nofollow"> RStudio IDE</a></li>
+  <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases" target="_blank" rel="nofollow"> Database Browser for SQLite</a></li>
 </ul>
   
 <a href="#"><i class="icon-fixed-width icon-link"></i> R包链接</a>
@@ -44,5 +45,7 @@
 <ul>
   <li><a href="https://github.com/accord-net/framework/releases" target="_blank" rel="nofollow"> Accord.NET Framework</a></li>
 </ul>
-
+<ul>
+  <li><a href="http://dynamicdatadisplay.codeplex.com/" target="_blank" rel="nofollow"> D3 Dynamic Data Display</a></li>
+</ul>
 
