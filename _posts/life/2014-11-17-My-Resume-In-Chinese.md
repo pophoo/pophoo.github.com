@@ -1,7 +1,11 @@
 ---
-title: ""
-output: word_document
+layout: post
+title: "中文简历"
+description: "中文简历"
+category: life
+tags: [生活,工作]
 ---
+{% include JB/setup %}
 
 刘兴虎
 ===========
