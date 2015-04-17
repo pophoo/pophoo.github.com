@@ -27,9 +27,10 @@
 
 <a href="#"><i class="icon-fixed-width icon-link"></i> 常用软件链接</a>
 <ul>
+  <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases" target="_blank" rel="nofollow"> Database Browser for SQLite</a></li>
   <li><a href="https://github.com/GitbookIO/editor/releases" target="_blank" rel="nofollow"> Gitbook Editor</a></li>
   <li><a href="http://www.rstudio.com/ide/download/preview" target="_blank" rel="nofollow"> RStudio IDE</a></li>
-  <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases" target="_blank" rel="nofollow"> Database Browser for SQLite</a></li>
+  <li><a href="https://www.getsync.com/" target="_blank" rel="nofollow"> Sync</a></li>
 </ul>
   
 <a href="#"><i class="icon-fixed-width icon-link"></i> R包链接</a>
@@ -40,12 +41,17 @@
 
 <a href="#"><i class="icon-fixed-width icon-link"></i> .NET Framework包链接</a>
 <ul>
-  <li><a href="http://rdotnet.codeplex.com" target="_blank" rel="nofollow"> R.NET</a></li>
-</ul>
-<ul>
   <li><a href="https://github.com/accord-net/framework/releases" target="_blank" rel="nofollow"> Accord.NET Framework</a></li>
 </ul>
 <ul>
   <li><a href="http://dynamicdatadisplay.codeplex.com/" target="_blank" rel="nofollow"> D3 Dynamic Data Display</a></li>
 </ul>
+<ul>
+  <li><a href="https://github.com/QuantConnect/Lean" target="_blank" rel="nofollow"> Lean C# Algorithmic Trading Engine</a></li>
+</ul>
+<ul>
+  <li><a href="http://rdotnet.codeplex.com" target="_blank" rel="nofollow"> R.NET</a></li>
+</ul>
+
+
 
